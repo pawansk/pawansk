@@ -1,0 +1,150 @@
+
+.toggle-button {
+  -webkit-appearance: none;
+  outline: none;
+  width: 34px;
+  height: 34px;
+  border-radius: 50px;
+  position: relative;
+  transition: 0.4s;
+  background: url("https://raw.githubusercontent.com/RuchiVS/image-upload/main/moon.png")
+    no-repeat center #212121;
+  background-size: 22px;
+  cursor: pointer;
+}
+.toggle-button:checked {
+  background: url("https://raw.githubusercontent.com/RuchiVS/image-upload/main/sun.png")
+    no-repeat center #e4eaed;
+    background-color: #ffffff30 !important;
+  background-size: 22px;
+}
+
+.day_night_toggle{
+  padding-top: 5px;
+}
+
+.day_night_toggle h2{
+  font-size: 13px;
+}
+.dark-mode .sidebar ul li a, .dark-mode a.msidn-highlight 
+ {
+  color: #dddddd;
+}
+
+.dark-mode .sidebar, .dark-mode .mainWrapper-under, .dark-mode .topbar-nav, .dark-mode .nav-item.dropdown .dropdown-menu.show, 
+.dark-mode .dropdown-toggle-click:hover ul.dropdown-menu-child, .dark-mode .nav-link.dropdown-toggle.show, .dark-mode .css-11xur9t-MuiPaper-root-MuiTableContainer-root{
+    background-color: #080f25;
+  }
+  .dark-mode .dropdown-item:focus, .dark-mode .dropdown-item:hover,  .dark-mode .nav-link.dropdown-toggle.show, .dark-mode .nav-item a.nav-link:hover, .dropdown-item:hover{
+    background-color: #161d46;
+  }
+  .dark-mode .toplogo {
+    border-bottom: solid 1px #171c38;
+}
+
+body.dark-mode  {
+  background-color: #00041a;
+}
+
+.dark-mode input, .dark-mode .form-control, .dark-mode .form-control:focus{
+  background-color: #0a0e22 !important;
+  color: #9199c7;
+  border: solid 1px #1d1f4c;
+}
+.dark-mode .topbar-nav .dropdown-menu.show{
+  background-color: #1f234e;
+}
+.dark-mode .signout{
+  background-color: #2e2c64;
+}
+.dark-mode .dropdown-user-under-user {
+  font-size: 14px;
+}
+.dark-mode .nav-item a.nav-link:hover, .dark-mode .dropdown-item:hover {
+  background-color: #656be2 !important;
+  color: #f3f3f3 !important;
+  transition: 0.3s all ease;
+}
+.dark-mode .apexcharts-legend-text{
+  color: #d3d3d3 !important;
+}
+.dark-mode .form-control select option{
+  color: #9199c7;
+}
+.dark-mode .profile-dropdown, .dark-mode .topbar-right-links a {
+  color: #efe3e3;
+  background-color: #5a76ea;
+  border: solid 0px #7767f9;
+}
+
+.dark-mode input::placeholder {
+  color: #5e627c;
+}
+
+
+.dark-mode input::-moz-placeholder {
+  color: #5e627c;
+}
+.dark-mode input::-webkit-input-placeholder {
+  color: #5e627c;
+}
+
+.dark-mode input:-ms-input-placeholder {
+  color: #5e627c;
+}
+.dark-mode .card, .dark-mode .bg-light{
+  background-color: #101935 !important;
+  border: solid 1px #ffffff05;
+  color: #e7e7e7;
+}
+.dark-mode .sidebar{
+  border-right: solid 1px #191a37;
+}
+.dark-mode .navbar.navbar-expand-lg.topbar-nav {
+  border-bottom: solid 1px #191a37;
+}
+.dark-mode a.border-bg-none{
+  background-color: #5a76ea00;
+}
+.dark-mode .heading {
+  border-bottom: solid 1px #ffffff0a;
+  background-color: #121734;
+}
+.dark-mode .footerSection {
+  border-top: solid 1px #191a37;
+  background-color: #0a0e24;
+  color: #717181;
+}
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6 {
+  color: #e7e7e7!important;
+}
+.dark-mode .dropdownbutText, .dark-mode .dropdownTextShow {
+  background-color: #212c4d;
+  color: #d3e1e7;
+}
+.dark-mode .nav-item.dropdown .dropdown-menu.show, .dark-mode .dropdown-toggle-click:hover ul.dropdown-menu-child{
+  border: solid 1px #191a37;
+}
+.dark-mode .MuiTable-root thead tr, .dark-mode .MuiTable-root tbody tr:nth-of-type(even) {
+  background-color: #121734;
+}
+.dark-mode .MuiTable-root tbody tr:nth-of-type(odd) {
+  background-color: #0a0e24;
+}
+.dark-mode .css-1ygcj2i-MuiTableCell-root, .dark-mode .css-1ex1afd-MuiTableCell-root{
+color: #dddddd;
+}
+.dark-mode table tr:hover td {
+  background-color: #0b0c22;
+}
+.dark-mode .page-title-heading{
+  color: #dddddd;
+}
+.dark-mode .dashboardCard .card-img{
+  height: 58px;
+  width: auto;
+  border-radius: 50px;
+}
+.dark-mode .MuiTable-root thead tr th, .dark-mode .MuiTable-root td, .dark-mode table td {
+  border: solid 1px #384c62 !important;
+}
