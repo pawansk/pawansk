@@ -143,8 +143,28 @@ color: #dddddd;
 .dark-mode .dashboardCard .card-img{
   height: 58px;
   width: auto;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 .dark-mode .MuiTable-root thead tr th, .dark-mode .MuiTable-root td, .dark-mode table td {
   border: solid 1px #384c62 !important;
+}
+
+.dark-mode .modal-header, .dark-mode .modal-footer{
+background-color: #1f2144;
+border-color: #353264;
+}
+.dark-mode .modal-body{
+  background-color: #292b46;
+}
+.dark-mode .modal-content{
+  border-color: #353264;
+}
+.dark-mode table.custom-table tr td, .dark-mode table.custom-table tr th, .dark-mode table.custom-table2 tr td, .dark-mode table.custom-table2 tr th {
+  border-color: #394b61;
+}
+.dark-mode label {
+  color: #ddd;
+}
+.dark-mode pre {
+  color: #fff;
 }

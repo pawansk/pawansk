@@ -47,7 +47,8 @@ const activationCustomerSummary=  ['DEMO_TESTMVNO',  'AttLiveTest', 'AttLiveTest
         <label className="switch">
             <input type="checkbox" />
             <span className="slider" onClick={switchButton}></span>
-        </label><span className={`card-title-desc mb-0 ${showCard ? 'activeMaster' : ''}`}> Dashboard</span>
+        </label>
+        <span className={`card-title-desc mb-0 ${showCard ? 'activeMaster' : ''}`}> Dashboard</span>
        </CardSection>
 
     {showCard ||  (

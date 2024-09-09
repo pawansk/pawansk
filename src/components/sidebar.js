@@ -6,7 +6,7 @@ const Sidebar = ({sidebarToggle }) => {
   return (
 
     <div className={`sidebar ${sidebarToggle ? 'sidebar-toggle' : ''}`}>
-        {/* <div className='toplogo'><a href=""><img src='https://att-solutions.telgoo5.com/telgoo5/images/ocslogo.png' alt="logo" /></a></div> */}
+        <div className='toplogo'><a href=""><img src='https://att-solutions.telgoo5.com/telgoo5/images/ocslogo.png' alt="logo" /></a></div>
       <ul className="nav flex-column">
       
  
